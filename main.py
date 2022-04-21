@@ -87,6 +87,7 @@ def main():
     try:
         prepare()
         menu = get_menu()
+        print(menu)
         tweet(menu)
     except:
         tweet("メニューがないか、問題が発生しました。\ncc: @kobakazu0429")
