@@ -2,8 +2,8 @@ name: bot
 
 on:
   schedule:
-    #  11:30: UTC
-    - cron: "30 2 * * *"
+    #  11:00: UTC
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
